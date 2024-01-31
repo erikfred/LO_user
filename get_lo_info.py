@@ -60,6 +60,10 @@ elif (str(HOME) == '/Users/erikfred') & ('MONROE' in str(UNAME)):
     lo_env = 'ef2_mac'
     which_matlab = '/Applications/MATLAB_R2019a.app/bin/matlab'
 
+elif (str(HOME) == '/Users/erikfred') & ('GEO-A52687' in str(UNAME)):
+    lo_env = 'ef_utig'
+    which_matlab = '/Applications/MATLAB_R2023a.app/bin/matlab'
+
 elif (str(HOME) == '/home/erikfred') & ('perigee' in HOSTNAME):
     lo_env = 'ef_perigee'
     roms_out1 = Path('/data1/parker/LO_roms') # intentionally in Parker's directory!
